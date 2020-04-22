@@ -60,3 +60,8 @@ ThinkPHP® 商标和著作权所有者为上海顶想信息科技有限公司。
 
 ##接口调试工具
 https://work.weixin.qq.com/api/devtools/devtool.php
+
+##access_token获取方式
+https://work.weixin.qq.com/api/doc/90001/90142/90593#%E6%9C%8D%E5%8A%A1%E5%95%86%E7%9A%84token \
+第三方文档 \
+https://blog.csdn.net/xi_haibin/article/details/89394707
