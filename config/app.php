@@ -32,5 +32,5 @@ return [
     // 显示错误信息
     'show_error_msg'   => true,
     // 是否强制使用路由
-    'url_route_must'   => true,
+    //'url_route_must'   => true,
 ];
