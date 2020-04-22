@@ -50,3 +50,13 @@ All rights reserved。
 ThinkPHP® 商标和著作权所有者为上海顶想信息科技有限公司。
 
 更多细节参阅 [LICENSE.txt](LICENSE.txt)
+
+##接口调用流程
+获取access_token，参考 文档说明。
+缓存和刷新access_token。
+开发者需要缓存access_token，
+用于后续接口的调用（注意：不能频繁调用gettoken接口，否则会受到频率拦截）。当access_token失效或过期时，需要重新获取。
+调用具体的业务接口
+
+##接口调试工具
+https://work.weixin.qq.com/api/devtools/devtool.php

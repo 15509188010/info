@@ -91,4 +91,21 @@ abstract class BaseController
         return $v->failException(true)->check($data);
     }
 
+    /**
+     * todo(优化状态码定义统一的错误码, 重写写http响应码)
+     * api 统一json输出
+     * @param $code
+     * @param $data
+     * @param $msg
+     */
+    protected static function buildJson($code,$data,$msg)
+    {
+        $response = [
+            'code' => $code,
+            'data' => $data,
+            'msg' => $msg
+        ];
+        exit(json_encode($response,JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES));
+    }
+
 }
